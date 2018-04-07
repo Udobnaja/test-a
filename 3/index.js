@@ -16,5 +16,6 @@
         return (isSort === true) ? sort(arr) : arr;
     }
 
-    let g = sort(arr);
+    let result = sort(arr);
+    console.log(result);
 }());
